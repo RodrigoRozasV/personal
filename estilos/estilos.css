@@ -85,6 +85,8 @@ h3 {
 
 #sobre-mi .texto {
   width: 42%;
+  margin-left: 20px;
+  margin-right: 20px;
 }
 
 /* SECCION SERVICIOS */
@@ -347,9 +349,13 @@ h3 {
     height: 70vh;
   }
 
+  .icono {
+    margin-top: 80px;
+  }
+
   .servicio {
     width: 57%;
-    padding: 34px 30px 69px 30px;
+    padding: 34px 30px 9px 30px;
     margin: auto;
     margin-bottom: 45px;
 }
@@ -365,4 +371,12 @@ h3 {
   text-align: center;
 }
 
+}
+
+.contenedor-trabajar{
+  text-align:center
+}
+.contenedor-titulo {
+  text-align: center;
+  margin-top: 1vh;
 }
