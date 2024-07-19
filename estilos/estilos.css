@@ -36,12 +36,17 @@ header {
   background-size: cover;
   background-position: center;
   height: 100vh;
-  color: #000;
+  color: white;
+}
+
+footer{
+  background-color: #274453           ;
+  color: white;
 }
 
 h1 {
   font-size: 60px;
-  margin: 0;
+  margin-top: 60px;
 }
 
 h2 {
@@ -51,6 +56,7 @@ h2 {
 .contenedor-titulo {
   text-align: center;
   margin-top: 5vh;
+  margin: auto;
 }
 
 .contenedor-titulo a, #sobre-mi a, #blog a, #que-esperas a, #contacto input[type="submit"] {
@@ -67,7 +73,7 @@ p.logo {
 }
 
 nav ul li a {
-  color: #000;
+  color: white;
 }
 
 /* SECCION DE SOBRE MI */
@@ -85,9 +91,14 @@ h3 {
 
 #sobre-mi .texto {
   width: 42%;
-  margin-left: 20px;
-  margin-right: 20px;
 }
+
+#sobre-mi p {
+  text-align: justify;
+  padding: 20px;
+}
+
+
 
 /* SECCION SERVICIOS */
 
@@ -136,9 +147,16 @@ h3 {
 }
 
 /* SECCION MIS TRABAJOS */
+.fondo-trabajos{
+  background-color: #274453
+}
+
+.titulo-trabajo{
+  color:#fff;
+}
 
 button.owl-prev, button.owl-next {
-    font-size: 40px !important;
+  font-size: 40px !important;
 }
 
 span {
@@ -256,11 +274,14 @@ html {
 }
 
 /* FOOTER */
-#footer-nav{
-  margin-top: 5px;
+.footer-nav{
+  margin-top: 12px;
 }
 
 @media (max-width: 800px) {
+.footer-nav{
+  margin-top: 0;
+}
 
 .menu-icon {
   display: block;
@@ -275,7 +296,7 @@ header nav {
   top: 83px;
   left: 0;
   height: 268px;
-  background: #fafcfd;
+  background: #274453;
   width: 100%;
   display: none;
 }
@@ -317,10 +338,6 @@ h2 {
   padding: 34px 30px 69px 30px;
 }
 
-.icono {
-    margin-top: 23px;
-}
-
 h3 {
   font-size: 43px;
 }
@@ -344,26 +361,30 @@ h3 {
 
 }
 
-@media (min-width: 400px) and (max-width:800px) {
-  header {
-    height: 70vh;
-  }
+@media (min-width: 300px) and (max-width:799px) {
+.footer-nav{
+  margin-top: 0;
+}
 
-  .icono {
-    margin-top: 80px;
-  }
+header {
+  height: 70vh;
+}
 
-  .servicio {
-    width: 57%;
-    padding: 34px 30px 9px 30px;
-    margin: auto;
-    margin-bottom: 45px;
+.icono {
+  margin-top: 100px;
+}
+
+.servicio {
+  width: 57%;
+  padding: 34px 30px 9px 30px;
+  margin: auto;
+  margin-bottom: 45px;
 }
 
 #blog .publicacion {
-    width: 71%;
-    margin: auto;
-    margin-bottom: 40px;
+  width: 71%;
+  margin: auto;
+  margin-bottom: 40px;
 }
 
 #por-que-trabajar .item {
@@ -378,5 +399,7 @@ h3 {
 }
 .contenedor-titulo {
   text-align: center;
-  margin-top: 1vh;
+}
+.subtitulo{
+  margin-top: 5vh;
 }
