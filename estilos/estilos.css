@@ -112,7 +112,8 @@ h3 {
 }
 
 .servicio {
-  width: 24%;
+  text-align: justify;
+  width: 95%;
   padding: 34px 30px 38px 30px;
   border-radius: 10px;
   margin-bottom: 40px;
@@ -122,11 +123,11 @@ h3 {
 .servicio h4 {
   font-size: 30px;
   margin: 0;
+  text-align: center;
 }
 
 .servicio p {
   margin-bottom: 20px;
-  height: 194px;
 }
 
 .contenedor-servicios .violeta {
@@ -171,6 +172,16 @@ color: #000;
 }
 
 /* SECCION POR QUE TRABAJAR CONMIGO */
+
+.fotos{
+  text-align: justify;
+  width: 95%;
+  padding: 5px;
+  border-radius: 10px;
+  margin-bottom: 40px;
+  position: relative;
+  background-color: #274453;
+}
 
 .contenedor-trabajar {
   display: flex;
@@ -380,7 +391,7 @@ header {
 }
 
 .servicio {
-  width: 57%;
+  width: 75%;
   padding: 34px 30px 9px 30px;
   margin: auto;
   margin-bottom: 45px;
