@@ -41,7 +41,7 @@ header {
 }
 
 footer{
-  background-color: #274453           ;
+  background-color: #677c86;
   color: white;
 }
 
@@ -92,7 +92,7 @@ h3 {
 }
 
 #sobre-mi .texto {
-  width: 42%;
+  width: 90%;
 }
 
 #sobre-mi p {
@@ -291,6 +291,12 @@ html {
   margin-top: 12px;
 }
 
+.subtitulo{
+  margin-top: 5vh;
+  color: red;
+  font-size: 32px;
+}
+
 @media (max-width: 800px) {
 .footer-nav{
   margin-top: 0;
@@ -375,6 +381,9 @@ h3 {
 }
 
 @media (min-width: 300px) and (max-width:799px) {
+  .subtitulo{
+    font-size: 21px;
+  }
 .logo-candidato {
   width: 100px;
 }
@@ -424,8 +433,4 @@ header {
 }
 .contenedor-titulo {
   text-align: center;
-}
-.subtitulo{
-  margin-top: 5vh;
-  color: red;
 }
